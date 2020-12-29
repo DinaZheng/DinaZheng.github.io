@@ -1,0 +1,43 @@
+html{
+
+}
+html,body {
+    background-color: white;
+
+    font-family:Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:normal;
+}
+
+/*NAVIGATION BAR */
+.nav {
+    background-color: black;
+    display: block;
+}
+
+/* container holding image and text */ 
+.container {
+    
+    position: relative;
+    text-align: center;
+    color:white;
+  }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+/*background image 
+.bg {
+    background-image: url("images/home_background.jpg");
+    height: 50%;
+
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+*/
